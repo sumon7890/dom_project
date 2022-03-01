@@ -1,0 +1,21 @@
+button {
+  width: 200px;
+  padding: 13px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.wapper {
+  margin-top: 2%;
+  background-color: black;
+  height: 828px;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: antiquewhite;
+}
