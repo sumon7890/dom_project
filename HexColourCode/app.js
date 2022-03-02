@@ -3,25 +3,24 @@ window.onload = () =>{
 }
 
 function generetorRGB (){
-
     const root = document.getElementById('root')
-    const handleChange = document.getElementById('handleChange')
+    const Btn = document.getElementById('Btn')
+    const output = document.getElementById('outputValue')
 
-    handleChange.addEventListener('click', () =>{
+    Btn.addEventListener('click', () =>{
 
         const bgColour = chageRgbColour()
         root.style.backgroundColor = bgColour;
+        output.value = bgColour
     })
 }
 
 
 
 function chageRgbColour(){
-
     const red = Math.floor(Math.random() * 255)
     const green = Math.floor(Math.random() * 255)
     const yellow = Math.floor(Math.random() * 255)
 
-    return `rgb(${red}, ${green}, ${yellow})`
+    return `#${red.toString(16)}${green.toString(16)}${yellow.toString(16)}`
 }
-

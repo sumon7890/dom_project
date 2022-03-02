@@ -1,0 +1,30 @@
+#Btn {
+  width: 200px;
+  padding: 13px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.wapper {
+  background-color: black;
+  height: 890px;
+  text-align: center;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  color: antiquewhite;
+}
+.content {
+  margin-top: 17%;
+}
+#outputValue {
+  margin-bottom: 50px;
+  padding: 14px;
+  text-align: center;
+  width: 224px;
+  border-radius: 8px;
+}
